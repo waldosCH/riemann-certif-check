@@ -18,6 +18,7 @@ Check days left for SSL certificate(s) and send event(s) to riemann (https://rie
 ## Config file
 
 config_example.yaml
+
     ---
     riemann:
       server: 'localhost'
