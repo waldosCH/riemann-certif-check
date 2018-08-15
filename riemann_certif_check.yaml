@@ -1,0 +1,10 @@
+---
+riemann:
+  server: 'localhost'
+  port: 5555
+  ttl: 300
+criticality: 10
+domains:
+  www.google.com:
+    port : 443
+  www.github.com:
