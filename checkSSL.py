@@ -51,7 +51,7 @@ def getConfig(file):
         # riemann-server
         if 'server' not in config['riemann']:
             config['riemann']['server'] = args.riemann_server
-        if not validators.domain(config['riemann']['server']):
+        if not (validators.domain(config['riemann']['server']) or config['riemann']['server'] == 'localhost'):
             print("riemann.server must be a valid domain")
             exit(1)
 

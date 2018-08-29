@@ -7,4 +7,3 @@ criticality: 10
 domains:
   www.google.com:
     port : 443
-  www.github.com:
